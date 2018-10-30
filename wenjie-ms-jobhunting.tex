@@ -37,12 +37,12 @@
 \begin{tabular}{@{}p{3.5in}p{2.3in}}
 %Building 84/2051           &  \\
 Microsoft Building 84/3349   & \hfill  Telephone: (814)-954-2868\\
-Redmond, WA  & \hfill Email: \texttt{wenjiehu.cs@gmail.com}
+Redmond, WA  & \hfill Email: \texttt{wenhu@microsoft.com}
 \end{tabular}
 
 
-\section{\sc Brief\\ Description}
-I got my Bachelor, Master and Ph.D {\bf all in Computer Science} and I have solid background in software engineer. I have also worked in {\bf Deep Learning/Machine Learning} for several years. I am looking for a full time job as a software engineer, or a combination of both software engineer and data scientist.
+%\section{\sc Brief\\ Description}
+%I got my Bachelor, Master and Ph.D {\bf all in Computer Science} and I have solid background in software engineer. I have also worked in {\bf Deep Learning/Machine Learning} for several years. I am looking for a full time job as a software engineer, or a combination of both software engineer and data scientist.
 
 \section{\sc Education}
 
@@ -61,27 +61,49 @@ I got my Bachelor, Master and Ph.D {\bf all in Computer Science} and I have soli
 {{\bf B.E.} in Computer Science and Technology} \hfill 2007
 \vspace{-0.1in}
 
-{\bf Shanghai University of Finance and Economics} \hfill Shanghai, China \\
-{{\bf Minor} in Business Administration} \hfill 2006
+%{\bf Shanghai University of Finance and Economics} \hfill Shanghai, China \\
+%{{\bf Minor} in Business Administration} \hfill 2006
 
 \section{\sc Working Experience}
 
-{\bf Microsoft Corp. }  \hfill  Mar. 2016 - Present \\
-{\bf Data Sciences Team}   \\
+{\bf Microsoft Corp. }   \\ %\hfill  Mar. 2016 - Present
+{\bf MKG (Microsoft Knowledge and Growth) Data Sciences Team}   \\
 \begin{itemize}
-  \item Designed and deployed an opportunity score model to predict whether a customer will buy Microsoft products in next two months (classification problem/ranking problem).
-  \item Designed and deployed a revenue model to predict how much a user will spend on Microsoft products (regression problem).
-  \item Rebuilt the opportunity score and revenue model using feed forward network, RNN (LSTM), and Autoencoder (deep learning).
+  \item {\bf Classification/Ranking} \\
+  Deployed a \emph{Fast Tree} classification model to predict whether a potential customer will buy Microsoft products in next two months. \\ Conducted calibration to provide a meaningful score to the inside sellers, i.e., for 100 customers with score 80, around 80 will be converted after two months. \\
+  Got a lift of 10-40\% over rule based model. %(classification problem/ranking problem).
+  \item {\bf Regression} \\
+  Shipped 12 \emph{Fast Tree} regression models to predict the customer life time value in 12 Microsoft product divisions. \\
+  Used feature correlation/feature importance to select proper features.\\
+  Designed a metric combining L1/L2/Pearson Correlation/Spearman Correction to select the best model. % (regression problem).
+  \item {\bf Causal Effect Analysis} \\
+  Analyzed the impact of Microsoft reward program/family program on the total revenue. \\
+  Used \emph{Propensity Score} to remove bias when selecting counterfactual. \\
+  Solved the problem to compare two groups of users when it is impossible to run A/B test. \\
+  Published one paper and submitted one patent.
+  \item {\bf Deep Learning}\\
+  Rebuilt \emph{feed forward network/RNN (LSTM)} to predict users' spending. \\
+  Designed \emph{parameter sweep} modules to tune the hyperparameters. \\
+  Leveraged \emph{Autoencoder} to reduce the feature dimension.
+  \item {\bf Time Series Prediction} \\
+  Used \emph{STL/Holt-Winters/ARIMA} to predict a user's spending in the next year based on her spending in previous 2 years.
+  \item {\bf Clustering} \\
+  Divided users into clusters and then used the cluster id as features to predict the user's spending.
+ 
 \end{itemize}
 
 {\bf Jarvis Engineer Team}   \\
 \begin{itemize}
-  \item Designed APIs to collect the information from different sources about a commercial customer and show a unified interface to the sellers.
-  \item Built a Natural Language Generation (NLG) module to generate brief summary about a commercial customer.
+  \item {\bf System Implementation}\\
+   Designed and deployed APIs to collect data from different sources about a commercial customer and then show the information in a unified interface to inside sellers.
+  \item {\bf NLP}\\
+   Built a natural language generation (NLG) module to provide a brief summary of a customer.
 \end{itemize}
 
 
-%
+\section{\sc Program Languages}
+Java, Python, Scope, C/C++, C\#, R, javascript\\
+
 %\section{\sc Skills}
 %{\bf Languages:} C/C++ (10+ years), Java (8 years), Python, Matlab, javascript, R, SQL, HTML\\
 %{\bf Operating Systems:} Linux, Android, Windows\\
@@ -89,11 +111,15 @@ I got my Bachelor, Master and Ph.D {\bf all in Computer Science} and I have soli
 
 
 \section{\sc Honors and Awards}
+{\bf Microsoft Special Bonus Award} (only one in MKG data science team) \\
+Microsoft \hfill 2018
+\vspace{-0.1in}
+
 {\bf Graduate Research Assistant Award} (highest honor for graduate student)\\
 The Pennsylvania State University \hfill {2015}
 \vspace{-0.1in}
 
-{\bf AT\&T Graduate Fellowship}\\
+{\bf AT\&T Graduate Fellowship} (only one each year)\\
 AT\&T \hfill {2015}
 \vspace{-0.1in}
 
@@ -101,20 +127,20 @@ AT\&T \hfill {2015}
 IEEE INFOCOM 2015, ACM MobiHoc 2014, IEEE ICDCS 2013
 \vspace{-0.1in}
 
-{\bf College of Engineering Fellowship}\\
-The Pennsylvania State University \hfill { 2010}
-\vspace{-0.1in}
-
-{\bf Guanghua Scholarship for Excellent Students} \\
-Tsinghua University \hfill  { 2008}
-\vspace{-0.1in}
+%{\bf College of Engineering Fellowship}\\
+%The Pennsylvania State University \hfill { 2010}
+%\vspace{-0.1in}
+%
+%{\bf Guanghua Scholarship for Excellent Students} \\
+%Tsinghua University \hfill  { 2008}
+%\vspace{-0.1in}
 
 %{\bf Kang-Shien Scholarship for Excellent New Student(only 1 in Computer Science)}\\
 %Tsinghua University \hfill { 2007}
 %\vspace{-0.1in}
 
-{\bf Best Graduate (TOP 5\%)} \\
-Tongji University \hfill  { 2007}
+%{\bf Best Graduate (TOP 5\%)} \\
+%Tongji University \hfill  { 2007}
 %
 %\section{\sc Academic Experience}
 %{\bf Research Assistant} \hfill Jan. 2011 - present\\
@@ -148,7 +174,7 @@ Tongji University \hfill  { 2007}
 \section{\sc Publications}
 
 
-\vspace{-0.1in}
+%\vspace{-0.1in}
 {\bf Conference Papers}
 \vspace*{.05in}
 \begin{enumerate} [leftmargin=5mm]% \itemsep -1pt % Reduce space between items
@@ -170,13 +196,22 @@ Tongji University \hfill  { 2007}
 \vspace*{.05in}
 \begin{enumerate} [leftmargin=5mm]%\itemsep -1pt % Reduce space between items
 \setcounter{enumi}{12}
+\item  Yi Yang, {\bf Wenjie Hu} and Guohong Cao, ``Energy-Aware CPU Frequency Scaling for Mobile Video Streaming'', {\em IEEE Transactions on Mobile Computing (TMC)}, 2018.
+\item Shan Yang, Jay Pillai, {\bf Wenjie Hu} and Bo Moon, ``Estimating Lift In Total Revenue From Microsoft Rewards'', {\em MSJAR}, 2018.
 \item {\bf Wenjie Hu} and Guohong Cao, ``Quality-Aware Traffic Offloading in Wireless Networks'', {\em IEEE Transactions on Mobile Computing (TMC)}, 2017.
 \item Yibo Wu, Yi Wang, {\bf Wenjie Hu} and Guohong Cao, ``SmartPhoto: A Resource-Aware Crowdsourcing Approach for Image Sensing with Smartphones'', {\em IEEE Transactions on Mobile Computing (TMC)}, 2016. %Citation: 1.
 \item Bo Zhao, {\bf Wenjie Hu}, Qiang Zheng, and Guohong Cao, ``Energy-Aware Web Browsing on Smartphones'', {\em IEEE Transactions on Parallel and Distributed Systems (TPDS)}, 2015. %Citation: 29, Independent Citation: 24.
 \item Yong Cui, {\bf Wenjie Hu}, Hongyi Wang, ``Probabilistic Multi-path Routing for Multimedia over Wireless Mesh Networks'', {\em Ad Hoc \& Sensor Wireless Networks(AHWSN)}, 2010.
 \item Wei Gao, {\bf Wenjie Hu}, and Guohong Cao, ``Interest-Based Data Dissemination in Opportunistic Mobile Networks: Design, Implementation and Evaluation'', {\em Opportunistic Mobile Social Networks}, 2014. %Citation: 2, Independent Citation: 2.
 \end{enumerate}
-%
+
+{\bf Patent}
+\vspace*{.05in}
+\begin{enumerate} [leftmargin=7mm]%\itemsep -1pt % Reduce space between items
+\setcounter{enumi}{19}
+\item Shan Yang, Jay Pillai, {\bf Wenjie Hu} and Bo Moon, ``Computing Resource-efficient, machine learning-based techniques for measuring an effect of participation in an activity'', submitted.
+\end{enumerate}
+
 %{\bf Book Chapter}
 %\vspace*{.05in}
 %\begin{enumerate} [leftmargin=5mm]%\itemsep -1pt % Reduce space between items
@@ -184,29 +219,8 @@ Tongji University \hfill  { 2007}
 %
 %\end{enumerate}
 
-%{\bf Technical Report}
-%\vspace*{.05in}
-%\begin{enumerate} [leftmargin=7mm]%\itemsep -1pt % Reduce space between items
-%\setcounter{enumi}{10}
-%\item {\bf Wenjie Hu}, ``Cross-layer Design in Wireless Mesh Networks'', {\em First Aisa-FI (Future Internet)}, 2008.
-%\end{enumerate}
 
-%{\bf In Submission}
-%\vspace*{.05in}
-%\begin{enumerate} [leftmargin=7mm]%\itemsep -1pt % Reduce space between items
-%\setcounter{enumi}{13}
-%\item {\bf Wenjie Hu} and Guohong Cao, ``Quality-Aware Traffic Offloading in Wireless Networks'', {\em submitted to IEEE Journal on Selected Areas in Communications}.
-%\item {\bf Wenjie Hu} and Guohong Cao, ``Energy-Aware CPU Frequency Scaling for Mobile Video Streaming'', {\em submitted to IEEE INFOCOM} 2016.
-%%\item Yibo Wu, Yi Wang, {\bf Wenjie Hu}, Xiaomei Zhang and Guohong Cao, ``Resource-Aware Photo Crowdsourcing Through Delay Tolerant Networks'', {\em submitted to IEEE INFOCOM} 2016.
-%\item {\bf Wenjie Hu} and Guohong Cao, ``Characterizing the Energy Consumption of Wireless Interfaces on Smartphones'', {\em submitted to IEEE Communications Magazine}.
-%\end{enumerate}
 
-%{\bf Patent}
-%\vspace*{.05in}
-%\begin{enumerate} [leftmargin=7mm]%\itemsep -1pt % Reduce space between items
-%\setcounter{enumi}{16}
-%\item {\bf Wenjie Hu} and Chiu Ngo, ``LTE-assisted MAC Protocol to Reduce Delay for Vehicle to Vehicle Communications'', approval pending.
-%\end{enumerate}
 %
 %\section{\sc Project Experience}
 %{\bf Pervasive Data Access System on Mobile Devices} \small \texttt{(System development, Data mining, Java)}
@@ -296,48 +310,48 @@ Tongji University \hfill  { 2007}
 %South Korea \hfill 2/17/2008-2/24/2008\\
 %Canada \hfill 4/27/2014-5/2/2014
 
-\section{\sc Professional Experience}
-%{\bf \em Summary: 49 reviews (30 journal reviews, 19 conference reviews)}\\
-
-\vspace{-0.15in}
-{\bf Professional Service}\\
-{\em Program Committee}, International conference on Computers, Data Management and Technology Applications, 2017\\
-{\em Program Committee}, International Conference on Information \& Communication Technology and Systems, 2016\\
-{\em Session Chair}, IEEE International Conference on Computer Communications (INFOCOM), 2015\\
-{\em Program Committee}, International Conference on Computer Applications \& Technology, 2015, 2017\\
-{\em Program Committee},  International Conference on Mechanics \& Applied Physics, 2015\\
-
-\vspace{-0.15in}
-{\bf Journal Reviewer}\\
-IEEE/ACM Transactions on Networking 2017, 2016, 2015 \\
-IEEE Transactions on Vehicular Technology 2016, 2015\\
-IEEE Transactions on Mobile Computing 2017, 2016, 2015 \\
-Mobile Networks and Applications 2016 \\
-Elsevier Computer Communications 2016, 2015\\
-Future Generation Computer Systems 2016 \\
-Wireless Networks 2017, 2016\\
-ACM Transactions on Sensor Networks 2016 \\
-IEEE Journal on Selected Areas in Communications (JSAC) 2016, 2015, 2014\\
-Mobile Information Systems 2015 \\
-Journal of Parallel and Distributed Computing 2015 \\
-IEEE ACCESS 2015
-
-{\bf Conference Reviewer}\\
-International Conference on Information \& Communication Technology and Systems 2016 \\
-International Conference on Computer Communication and Networks 2016 \\
-International Conference on Computing, Networking and Communications (ICNC) 2016\\
-IEEE International Symposium on Multimedia (ISM) 2015\\
-IEEE/IFIP International Conference on Dependable Systems and Networks 2015 \\
-International Conference on Information Technology (ICIT) 2015\\
-IEEE International Conference on Smart Grid Communications 2015 \\
-IEEE Global Communications Conference 2015\\
-IEEE International Conference on Computer Communications (INFOCOM) 2015\\
-IEEE International Conference on Communications (ICC) 2015\\
-International Conference on Computer Communications and Networks (ICCCN) 2015\\
-IEEE International Conference on Network Protocols (ICNP) 2014\\
-IEEE Military Communications Conference (MILCOM) 2014\\
-IEEE International Workshop on Quality of Service 2010\\
-IP Mobility Management and Architecture (IPMMA) 2008
+%\section{\sc Professional Experience}
+%%{\bf \em Summary: 49 reviews (30 journal reviews, 19 conference reviews)}\\
+%
+%\vspace{-0.15in}
+%{\bf Professional Service}\\
+%{\em Program Committee}, International conference on Computers, Data Management and Technology Applications, 2017\\
+%{\em Program Committee}, International Conference on Information \& Communication Technology and Systems, 2016\\
+%{\em Session Chair}, IEEE International Conference on Computer Communications (INFOCOM), 2015\\
+%{\em Program Committee}, International Conference on Computer Applications \& Technology, 2015, 2017\\
+%{\em Program Committee},  International Conference on Mechanics \& Applied Physics, 2015\\
+%
+%\vspace{-0.15in}
+%{\bf Journal Reviewer}\\
+%IEEE/ACM Transactions on Networking 2017, 2016, 2015 \\
+%IEEE Transactions on Vehicular Technology 2016, 2015\\
+%IEEE Transactions on Mobile Computing 2017, 2016, 2015 \\
+%Mobile Networks and Applications 2016 \\
+%Elsevier Computer Communications 2016, 2015\\
+%Future Generation Computer Systems 2016 \\
+%Wireless Networks 2017, 2016\\
+%ACM Transactions on Sensor Networks 2016 \\
+%IEEE Journal on Selected Areas in Communications (JSAC) 2016, 2015, 2014\\
+%Mobile Information Systems 2015 \\
+%Journal of Parallel and Distributed Computing 2015 \\
+%IEEE ACCESS 2015
+%
+%{\bf Conference Reviewer}\\
+%International Conference on Information \& Communication Technology and Systems 2016 \\
+%International Conference on Computer Communication and Networks 2016 \\
+%International Conference on Computing, Networking and Communications (ICNC) 2016\\
+%IEEE International Symposium on Multimedia (ISM) 2015\\
+%IEEE/IFIP International Conference on Dependable Systems and Networks 2015 \\
+%International Conference on Information Technology (ICIT) 2015\\
+%IEEE International Conference on Smart Grid Communications 2015 \\
+%IEEE Global Communications Conference 2015\\
+%IEEE International Conference on Computer Communications (INFOCOM) 2015\\
+%IEEE International Conference on Communications (ICC) 2015\\
+%International Conference on Computer Communications and Networks (ICCCN) 2015\\
+%IEEE International Conference on Network Protocols (ICNP) 2014\\
+%IEEE Military Communications Conference (MILCOM) 2014\\
+%IEEE International Workshop on Quality of Service 2010\\
+%IP Mobility Management and Architecture (IPMMA) 2008
 
 %\section{\sc References}
 %{\bf Guohong Cao}\\
